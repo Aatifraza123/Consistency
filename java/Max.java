@@ -1,13 +1,14 @@
+package java;
 import java.util.*;
 
 public class Max {
     static int maxvalue(int[] arr) {
         int max = Integer.MIN_VALUE;
-        
+
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i];
-                sum += arr[i];
+
             }
         }
         return max;

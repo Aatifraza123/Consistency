@@ -1,3 +1,4 @@
+package java;
 import java.util.*;
 public class Firstrepeatnumber {
     static int firstrepeat(int[] arr){
@@ -22,7 +23,9 @@ public class Firstrepeatnumber {
         System.out.println("Enter " + n + " element");
         for (int i = 0; i < arr.length; i++){
             arr[i] = sc.nextInt();
+            System.out.print(arr[i] + " ");
         }
-        System.out.println("First repeating number is " + lastrepeat(arr));
+        System.out.println(" ");
+        System.out.println("First repeating number is " + firstrepeat(arr));
     }
 }

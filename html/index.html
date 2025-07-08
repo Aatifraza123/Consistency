@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="https://i.pinimg.com/originals/3b/bd/f3/3bbdf3e05f428f7daced86605cd3793b.jpg" alt="Logo" class="logo"/>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="home" id="home" data-aos="fade-up">
+0 <div class="home-content">
+    <h1>Hi, I'm Md Aatif Raza</h1>
+    <h2>Full Stack Web Developer</h2>
+    <p>
+      I specialize in building modern, responsive websites and web applications
+      using technologies like HTML, CSS, JavaScript, React, and Node.js.
+    </p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </div>
+  <div class="home-image">
+    <img src="https://i.ibb.co/3T1YCYt/developer-illustration.png" alt="Developer illustration" />
+  </div>
+</section>
+
+<section class="services" id="services">
+  <h2>My Services</h2>
+  <div class="services-cards">
+    <div class="service-card">
+      <h3>Web Development</h3>
+      <p>Responsive websites using modern front-end and back-end frameworks.</p>
+    </div>
+    <div class="service-card">
+      <h3>UI/UX Design</h3>
+      <p>Clean and modern interfaces with user-focused experience.</p>
+    </div>
+    <div class="service-card">
+      <h3>API Integration</h3>
+      <p>Seamless integration of REST APIs for powerful applications.</p>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <h2>My Services</h2>
+  <div class="services-cards">
+    <div class="service-card">
+      <h3>Web Development</h3>
+      <p>Responsive websites using modern front-end and back-end frameworks.</p>
+    </div>
+    <div class="service-card">
+      <h3>UI/UX Design</h3>
+      <p>Clean and modern interfaces with user-focused experience.</p>
+    </div>
+    <div class="service-card">
+      <h3>API Integration</h3>
+      <p>Seamless integration of REST APIs for powerful applications.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // animate only once
+  });
+</script>
+
+</body>
+</html>
